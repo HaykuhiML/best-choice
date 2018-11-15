@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
-import {ArtSchoolsPageComponent} from '../components/art-schools-page/art-schools-page.component';
-import {ArtSchoolsItemPageComponent} from '../components/art-schools-item-page/art-schools-item-page.component';
+import {ArtSchoolComponent} from './art-school/art-school.component';
+import {ArtSchoolItemComponent} from './art-school-item/art-school-item.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: ArtSchoolsPageComponent
+    component: ArtSchoolComponent
   },
   {
-    path: '',
-    component: ArtSchoolsItemPageComponent
+    path: ':id',
+    component: ArtSchoolItemComponent
   },
 
 

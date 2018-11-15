@@ -10,6 +10,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {CoreModule} from './core/core.module';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import {ArtSchoolsModule} from './pages/art-schools/art-schools.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
     AppRoutingModule,
     BrowserModule,
     MomentModule,
-    CoreModule
+    CoreModule,
+    ArtSchoolsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

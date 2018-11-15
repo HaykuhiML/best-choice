@@ -25,7 +25,7 @@ const appRoute: Routes = [
   },
   {
     path: 'art-schools',
-    loadChildren: './art-schools/art-schools.module#ArtSchoolsModule'
+    loadChildren: './pages/art-schools/art-schools.module#ArtSchoolsModule'
   }
 ];
 
