@@ -22,6 +22,10 @@ const appRoute: Routes = [
   {
     path: 'contact',
     component: ContactUsComponent
+  },
+  {
+    path: 'art-schools',
+    loadChildren: './art-schools/art-schools.module#ArtSchoolsModule'
   }
 ];
 
