@@ -4,6 +4,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {ArtSchoolComponent} from './art-school/art-school.component';
 import {ArtSchoolItemComponent} from './art-school-item/art-school-item.component';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -12,9 +13,7 @@ const routes: Routes = [
   {
     path: ':id',
     component: ArtSchoolItemComponent
-  },
-
-
+  }
 ];
 
 @NgModule({
@@ -24,4 +23,7 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
+
 export class ArtSchoolsRoutingModule { }
+
+
