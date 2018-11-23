@@ -8,7 +8,6 @@ import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 
 import {ContactUsComponent} from './pages/contact-us/contact-us.component';
 import {NotFoundComponent} from './pages/not-found/not-found.component';
-import {ArtSchoolsModule} from './pages/art-schools/art-schools.module';
 import {HeaderComponent} from './components/header/header.component';
 import {AboutUsComponent} from './pages/about-us/about-us.component';
 import {WelcomeComponent} from './pages/welcome/welcome.component';
@@ -38,7 +37,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     MomentModule,
     CoreModule,
-    ArtSchoolsModule,
     CoreModule,
     HttpClientModule,
     FormsModule,
